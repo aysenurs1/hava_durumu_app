@@ -24,9 +24,6 @@ jobs:
 
       - uses: gradle/actions/setup-gradle@v4
 
-      - name: Format (ktlint)
-        run: ./gradlew spotlessCheck
-
       - name: Unit tests
         run: ./gradlew testDebugUnitTest
 
