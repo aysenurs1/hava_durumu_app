@@ -112,39 +112,5 @@ app/src/main/java/com/kampplus/hava/
 └── MainActivity.kt         # Jetpack Compose giriş noktası
 ```
 
-## Kurulum ve Çalıştırma
-
-### Gereksinimler
-
-- JDK 17
-- Android SDK (compile SDK 36)
-- Android Studio veya Android SDK komut satırı araçları
-- Android cihazı ya da emülatör
-
-### Depoyu klonlama
-
-```bash
-git clone https://github.com/aysenurs1/hava_durumu_app.git
-cd hava_durumu_app
-```
-
-### Emülatörde veya bağlı cihazda çalıştırma
-
-```bash
-./gradlew installDebug
-```
-
-Gradle, debug sürümünü derler ve bağlı cihaza yükler. Uygulamayı emülatörden açabilir veya ADB ile başlatabilirsiniz:
-
-```bash
-adb shell monkey -p com.kampplus.hava 1
-```
-
-Sadece APK oluşturmak için:
-
-```bash
-./gradlew assembleDebug
-```
-
 
 
